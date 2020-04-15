@@ -41,7 +41,16 @@ export default {
   modules: [
     // Doc: https://github.com/nuxt-community/modules/tree/master/packages/bulma
     '@nuxtjs/bulma',
+    '@nuxtjs/axios',
   ],
+  /**
+   * @see https://axios.nuxtjs.org/setup.html#install
+   * @see https://axios.nuxtjs.org/options.html#options
+   */
+  axios: {
+    https: false,
+    proxy: false,
+  },
   /*
   ** Build configuration
   */
@@ -65,7 +74,6 @@ export default {
    * @see https://nuxtjs.org/api/configuration-generate/
    */
   generate: {
-    dir: 'nuxt-life',
     devtools: true,
   },
   /**
