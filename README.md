@@ -44,5 +44,5 @@ The only reason I created the proper `wordpress/` repo is because I've put my cu
 ## You can find a [demo here](http://mattiazanella.it/develop/wordpress-nuxt/) 🖥
 
 #### 🚨 But how you deploy your environment it's up to you.
-For this demo a crucial part is under [constant ENV](https://github.com/Alligatore3/wordpress-nuxt/blob/master/nuxt/constants/index.js).
+For this demo a crucial part is under [constant ENV](https://github.com/Alligatore3/wordpress-nuxt/blob/master/nuxt/constants/index.js). <br/>
 The `basePath` is an important key not only for AXIOS during fetch requests but also when you run `yarn build or generate`.
