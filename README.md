@@ -18,7 +18,9 @@ Use Wordpress API with Nuxt.js
 ? Choose rendering mode Single Page App
 ```
 <br/>
+
 ---
+
 The repo is structured as below:
 ```
 /**
