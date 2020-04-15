@@ -1,24 +1,6 @@
 # wordpress-nuxt
 Use Wordpress API with Nuxt.js
 <br/>
-<br/>
-The repo is structured as below:
-```
-/**
- * Of course al WP files are under this folder.
- * You should consider my functions.php file under my-theme/
- * Because it has some usefull functions inside.
- */
-wordpress/
-
-/**
- * And nuxt files are under this folder.
- */
-nuxt/
-
-```
-#### Now how you deploy your environment it's up to you.
----
 
 ### This is my Q&A while executing `yarn create nuxt-app`
 
@@ -35,3 +17,22 @@ nuxt/
 ? Choose test framework None
 ? Choose rendering mode Single Page App
 ```
+<br/>
+---
+The repo is structured as below:
+```
+/**
+ * Of course al WP files are under this folder.
+ * You should consider my functions.php file under my-theme/
+ * Because it has some usefull functions inside.
+ */
+wordpress/
+
+/**
+ * And nuxt files are under this folder.
+ */
+nuxt/
+
+```
+#### Now how you deploy your environment it's up to you.
+
