@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div v-if="spinner" class="spinner">
-      <button class="button is-fullwidth is-loading"></button>
+      <button class="mt-2 button is-fullwidth is-loading"></button>
     </div>
     <div v-else>
       <h1 class="title mt-2 is-2">Menu: </h1>
