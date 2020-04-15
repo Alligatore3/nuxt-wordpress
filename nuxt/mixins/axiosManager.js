@@ -22,11 +22,13 @@ export default {
       const pages = await this.$axios.$get(`${ ENVs.NETSONS.getFullPath() }/pages`)
 
       this.SET_PAGES(pages)
+      return pages
     },
     async AXIOS_getPosts() {
       const posts = await this.$axios.$get(`${ ENVs.NETSONS.getFullPath() }/posts`)
 
       this.SET_POSTS(posts)
+      return posts
     },
   }
 }

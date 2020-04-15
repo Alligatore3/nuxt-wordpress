@@ -11,7 +11,7 @@ export const getters = {
 }
 
 export const mutations = {
-  SET_MENU: state => menu => (state.menu = menu),
-  SET_PAGES: state => pages => (state.pages = pages),
-  SET_POSTS: state => posts => (state.posts = posts),
+  SET_MENU: (state, menu) => (state.menu = menu),
+  SET_PAGES: (state, pages) => (state.pages = pages),
+  SET_POSTS: (state, posts) => (state.posts = posts),
 }
