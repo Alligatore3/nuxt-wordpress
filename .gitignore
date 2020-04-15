@@ -4,5 +4,5 @@
 .DS_Store
 
 # WP
-wordpress/wp-config
+wordpress/wp-config.php
 wordpress/wp-content/uploads
