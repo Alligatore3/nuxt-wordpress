@@ -43,4 +43,4 @@ The only reason I created the proper `wordpress/` repo is because I've put my cu
 
 ## You can find a [demo here](http://mattiazanella.it/develop/wordpress-nuxt/) 🖥
 
-#### But how you deploy your environment it's up to you.
+#### 🚨 But how you deploy your environment it's up to you.
