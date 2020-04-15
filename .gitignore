@@ -1,5 +1,8 @@
 .idea
 
+# macOS
+.DS_Store
+
 # WP
 wordpress/wp-config
 wordpress/wp-content/uploads
