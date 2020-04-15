@@ -1,3 +1,4 @@
+import ENVs from './constants'
 
 export default {
   mode: 'spa',
@@ -57,5 +58,22 @@ export default {
     */
     extend (config, ctx) {
     }
+  },
+  /**
+   * @description Configure the generation of your universal web application
+   * to a static web application.
+   * @see https://nuxtjs.org/api/configuration-generate/
+   */
+  generate: {
+    dir: 'nuxt-life',
+    devtools: true,
+  },
+  /**
+   * @description This can be useful if you need to serve Nuxt as a
+   * different context root, from within a bigger Web site.
+   * @see https://nuxtjs.org/api/configuration-router/#base
+   */
+  router: {
+    base: ENVs.NETSONS.basePath
   }
 }
