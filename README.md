@@ -1,6 +1,7 @@
 # wordpress-nuxt
-Use Wordpress API with Nuxt.js <br/>
-
+Use Wordpress API with Nuxt.js
+<br/>
+<br/>
 The repo is structured as below:
 ```
 /**
