@@ -1,5 +1,6 @@
 # wordpress-nuxt
-Use Wordpress API with Nuxt.js\
+Use Wordpress API with Nuxt.js <br/>
+
 The repo is structured as below:
 ```
 /**
@@ -12,7 +13,7 @@ wordpress/
 /**
  * And nuxt files are under this folder.
  */
- nuxt/
+nuxt/
 
 ```
 #### Now how you deploy your environment it's up to you.
