@@ -35,9 +35,10 @@ wordpress/
 nuxt/
 
 ```
-#### Now how you deploy your environment it's up to you.
 
-## By the time I'm creating this repo [WP is at version 5.4](https://wordpress.org/download/) <br/>
+### By the time I'm creating this repo [WP is at version 5.4](https://wordpress.org/download/) <br/>
 The only reason I created the proper `wordpress/` repo is because I've put my custom theme which is required for the purpose of this demo.
-
-
+<br />
+#### Now how you deploy your environment it's up to you.
+<br/>
+## But you can find a [demo here](http://mattiazanella.it/develop/wordpress-nuxt/) 🖥
