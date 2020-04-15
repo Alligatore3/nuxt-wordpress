@@ -74,7 +74,6 @@ export default {
    * @see https://nuxtjs.org/api/configuration-generate/
    */
   generate: {
-    devtools: true,
   },
   /**
    * @description This can be useful if you need to serve Nuxt as a
