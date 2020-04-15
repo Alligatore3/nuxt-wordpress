@@ -17,7 +17,6 @@ Use Wordpress API with Nuxt.js
 ? Choose test framework None
 ? Choose rendering mode Single Page App
 ```
-<br/>
 
 ---
 
