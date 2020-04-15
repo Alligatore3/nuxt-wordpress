@@ -40,5 +40,7 @@ nuxt/
 The only reason I created the proper `wordpress/` repo is because I've put my custom theme which is required for the purpose of this demo.
 <br />
 #### Now how you deploy your environment it's up to you.
+
 <br/>
+
 ## But you can find a [demo here](http://mattiazanella.it/develop/wordpress-nuxt/) 🖥
