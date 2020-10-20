@@ -37,6 +37,13 @@ export default {
 </script>
 
 <style>
+pre {
+  max-width: 100%;
+  padding: 2rem;
+  background-color: aliceblue;
+  white-space: pre-wrap;
+}
+
 .mt-2 {
   margin-top: 2rem;
 }
