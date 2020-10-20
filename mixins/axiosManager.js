@@ -10,7 +10,7 @@ export default {
      * but at the same time we filter the menuvoice.
      */
     async MX_getMenuVoices() {
-      let menuVoices = await this.$axios.$get(`${ CONFIG.getFullPath() }/menu`)
+      let menuVoices = await this.$axios.$get(`${ CONFIG.getFullAPIPath() }/menu`)
       menuVoices = menuVoices.map(voice => ({
         ...voice,
         showInMenu: voice.title !== 'HOMEPAGE'
@@ -19,13 +19,13 @@ export default {
       this.SET_MENU(menuVoices)
     },
     async MX_getPages() {
-      const pages = await this.$axios.$get(`${ CONFIG.getFullPath() }/pages`)
+      const pages = await this.$axios.$get(`${ CONFIG.getFullAPIPath() }/pages`)
 
       this.SET_PAGES(pages)
       return pages
     },
     async MX_getPosts() {
-      const posts = await this.$axios.$get(`${ CONFIG.getFullPath() }/posts`)
+      const posts = await this.$axios.$get(`${ CONFIG.getFullAPIPath() }/posts`)
 
       this.SET_POSTS(posts)
       return posts
