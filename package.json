@@ -1,7 +1,18 @@
 {
-  "name": "new-nuxt",
+  "name": "nuxt-wordpress",
   "version": "1.0.0",
   "private": true,
+  "keywords": ["vuejs", "nuxtjs", "wordpress", "REST", "API"],
+  "homepage": "https://github.com/Alligatore3/nuxt-wordpress",
+  "bugs" : {
+    "url" : "https://github.com/Alligatore3/nuxt-wordpress/issues",
+    "email" : "mattia_zanella@icloud.com"
+  },
+  "author": {
+    "name": "Mattia Zanella",
+    "email": "mattia_zanella@icloud.com",
+    "url": "https://alligatore3.io"
+  },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
