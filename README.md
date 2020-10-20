@@ -60,6 +60,8 @@ add_action('init','add_cors_http_header');
 ```
 - Once you have the URL you have to compose it inside `/wordpress.config.js`. This is **crucial**.
 
+That's it, you should be able to run the commands below without any problems.
+
 ## Build Setup
 
 ```bash
