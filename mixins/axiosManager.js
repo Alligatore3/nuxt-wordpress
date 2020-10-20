@@ -3,7 +3,7 @@ import { mapMutations } from 'vuex'
 
 export default {
   methods: {
-    ...mapMutations('application', ['SET_MENU', 'SET_PAGES', 'SET_POSTS']),
+    ...mapMutations('wordpress', ['SET_MENU', 'SET_PAGES', 'SET_POSTS']),
     /**
      * @description This fetch from API the menu voices and sets in VUEX
      * We map the response to avoid 1 call for fetching HOMEPAGE ID
