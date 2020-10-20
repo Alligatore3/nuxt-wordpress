@@ -1,4 +1,4 @@
-# new-nuxt
+# Nuxt ❤️ Wordpress
 
 ## Build Setup
 
