@@ -1,4 +1,4 @@
-import ENVs from '@/constants'
+import ENVs from '~/constants'
 import { mapMutations } from 'vuex'
 
 export default {
@@ -9,7 +9,7 @@ export default {
      * We map the response to avoid 1 call for fetching HOMEPAGE ID
      * but at the same time we filter the menuvoice.
      */
-    async AXIOS_getMenuVoices() {
+    async MX_getMenuVoices() {
       let menuVoices = await this.$axios.$get(`${ ENVs.NETSONS.getFullPath() }/menu`)
       menuVoices = menuVoices.map(voice => ({
         ...voice,
@@ -18,13 +18,13 @@ export default {
 
       this.SET_MENU(menuVoices)
     },
-    async AXIOS_getPages() {
+    async MX_getPages() {
       const pages = await this.$axios.$get(`${ ENVs.NETSONS.getFullPath() }/pages`)
 
       this.SET_PAGES(pages)
       return pages
     },
-    async AXIOS_getPosts() {
+    async MX_getPosts() {
       const posts = await this.$axios.$get(`${ ENVs.NETSONS.getFullPath() }/posts`)
 
       this.SET_POSTS(posts)

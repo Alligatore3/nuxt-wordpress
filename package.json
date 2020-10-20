@@ -1,8 +1,6 @@
 {
-  "name": "wordpress-nuxt",
+  "name": "new-nuxt",
   "version": "1.0.0",
-  "description": "Use Wordpress API with Nuxt.js",
-  "author": "Mattia Zanella",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -11,9 +9,8 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.9.7",
-    "@nuxtjs/bulma": "^1.2.1",
-    "nuxt": "^2.0.0"
+    "core-js": "^3.6.5",
+    "nuxt": "^2.14.6"
   },
   "devDependencies": {}
 }

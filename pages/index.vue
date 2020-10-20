@@ -17,8 +17,8 @@
 </template>
 
 <script>
-  import {mapGetters} from 'vuex'
-  import axiosManager from "@/mixins/axiosManager";
+import {mapGetters} from 'vuex'
+import axiosManager from "@/mixins/axiosManager";
 
 export default {
   mixins:[axiosManager],
@@ -28,16 +28,16 @@ export default {
   },
   mounted() {
     Promise.all([
-      this.AXIOS_getMenuVoices(),
-      this.AXIOS_getPages(),
-      this.AXIOS_getPosts()
+      this.MX_getMenuVoices(),
+      this.MX_getPages(),
+      this.MX_getPosts()
     ]).then( () => (this.spinner = false) )
   }
 }
 </script>
 
 <style>
-  .mt-2 {
-    margin-top: 2rem;
-  }
+.mt-2 {
+  margin-top: 2rem;
+}
 </style>

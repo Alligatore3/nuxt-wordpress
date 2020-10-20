@@ -1,48 +1,20 @@
-# wordpress-nuxt
-Use Wordpress API with Nuxt.js
-<br/>
+# new-nuxt
 
-### This is my Q&A while executing `yarn create nuxt-app`
+## Build Setup
 
-```
-? Project name wordpress-nuxt
-? Project description Use Wordpress API with Nuxt.js
-? Author name Mattia Zanella
-? Choose programming language JavaScript
-? Choose the package manager Yarn
-? Choose UI framework Bulma
-? Choose custom server framework None (Recommended)
-? Choose Nuxt.js modules (Press <space> to select, <a> to toggle all, <i> to invert selection)
-? Choose linting tools (Press <space> to select, <a> to toggle all, <i> to invert selection)
-? Choose test framework None
-? Choose rendering mode Single Page App
-```
+```bash
+# install dependencies
+$ yarn install
 
----
+# serve with hot reload at localhost:3000
+$ yarn dev
 
-The repo is structured as below:
-```
-/**
- * Of course al WP files are under this folder.
- * You should consider my functions.php file under my-theme/
- * Because it has some usefull functions inside.
- */
-wordpress/
+# build for production and launch server
+$ yarn build
+$ yarn start
 
-/**
- * And nuxt files are under this folder.
- */
-nuxt/
-
+# generate static project
+$ yarn generate
 ```
 
-### By the time I'm creating this repo [WP is at version 5.4](https://wordpress.org/download/) <br/>
-The only reason I created the proper `wordpress/` repo is because I've put my custom theme which is required for the purpose of this demo.
-
-<br/>
-
-## You can find a [demo here](http://mattiazanella.it/develop/wordpress-nuxt/)  🖥
-
-#### 🚨 But how you deploy your environment it's up to you.
-For this demo a crucial part is under [constant ENV](https://github.com/Alligatore3/wordpress-nuxt/blob/master/nuxt/constants/index.js). <br/>
-The `basePath` is an important key not only for AXIOS during fetch requests but also when you run `yarn build or generate`.
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
