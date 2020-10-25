@@ -1,4 +1,8 @@
 export default {
+  env: {
+    NUXT_WPAPI_USER: process.env.NUXT_WPAPI_USER,
+    NUXT_WPAPI_PASS: process.env.NUXT_WPAPI_PASS,
+  },
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
 
@@ -15,12 +19,13 @@ export default {
     ]
   },
 
-  // Global CSS (https://go.nuxtjs.dev/config-css)
+  // Global CSS (https://go.nuxtjs.dev/config-css)w
   css: [
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
+    '@/plugins/WPAPI'
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -31,7 +36,9 @@ export default {
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: ['@nuxtjs/axios'],
+  modules: [
+    '@nuxtjs/axios'
+  ],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {

@@ -2,11 +2,17 @@
   "name": "nuxt-wordpress",
   "version": "1.0.0",
   "private": true,
-  "keywords": ["vuejs", "nuxtjs", "wordpress", "REST", "API"],
+  "keywords": [
+    "vuejs",
+    "nuxtjs",
+    "wordpress",
+    "REST",
+    "API"
+  ],
   "homepage": "https://github.com/Alligatore3/nuxt-wordpress",
-  "bugs" : {
-    "url" : "https://github.com/Alligatore3/nuxt-wordpress/issues",
-    "email" : "mattia_zanella@icloud.com"
+  "bugs": {
+    "url": "https://github.com/Alligatore3/nuxt-wordpress/issues",
+    "email": "mattia_zanella@icloud.com"
   },
   "author": {
     "name": "Mattia Zanella",
@@ -22,7 +28,8 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.12.2",
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.6"
+    "nuxt": "^2.14.6",
+    "wpapi": "^1.2.1"
   },
   "devDependencies": {}
 }

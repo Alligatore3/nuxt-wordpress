@@ -1,6 +1,6 @@
 export default {
   protocol: 'http',
-  host: 'your-amazing-wordpress.com',
+  host: 'mattiazanella.it/develop/wordpress-nuxt/wordpress',
   port: false,
   basePath: '/',
   path_API: 'wp-json/wp/v2',

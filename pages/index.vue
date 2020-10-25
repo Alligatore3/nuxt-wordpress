@@ -27,11 +27,18 @@ export default {
     ...mapGetters('wordpress', ['getMenu', 'getPages', 'getPosts'])
   },
   mounted() {
+    this.GET_PRIVATE_POSTS()
     Promise.all([
       this.MX_getMenuVoices(),
       this.MX_getPages(),
       this.MX_getPosts()
     ]).then( () => (this.spinner = false) )
+  },
+  methods: {
+    async GET_PRIVATE_POSTS() {
+      const response = await this.$WPAPI.posts().status('private')
+      console.log('GET_PRIVATE_POSTS', response)
+    }
   }
 }
 </script>
